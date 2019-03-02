@@ -6,7 +6,6 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <VersionPrefix>4.2.0</VersionPrefix>
     <Authors>Stateless Contributors</Authors>
-    <TargetFrameworks>netstandard1.0;net45;net40</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Stateless</AssemblyName>
@@ -24,6 +23,7 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
     <Version>4.2.1</Version>
+    <TargetFramework>netstandard1.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard1.0' ">

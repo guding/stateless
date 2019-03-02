@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Stateless
 {
-    public partial class StateMachine<TState, TTrigger>
+    public partial class StateMachine<TState, TTrigger> : IStateMachine<TState, TTrigger>
     {
         /// <summary>
         /// Activates current state in asynchronous fashion. Actions associated with activating the currrent state
